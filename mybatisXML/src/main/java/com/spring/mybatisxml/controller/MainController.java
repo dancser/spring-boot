@@ -44,6 +44,7 @@ public class MainController {
 
     @RequestMapping("/del1")
     public void delOne(Integer id){
+        System.out.println("print 1111111");
         userMapper1.delOne(id);
     }
 }
